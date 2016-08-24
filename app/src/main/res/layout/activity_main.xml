@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="tk.seijas.color_test.MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nueva Cita"
+        android:id="@+id/button"
+        android:onClick="b_nuevaCita"
+        android:layout_alignParentBottom="true"
+        android:background="#bc2c2c"
+        android:textColor="#ffffff"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:textSize="18dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La inteligencia militar es una contradicion en terminos"
+        android:id="@+id/textocita"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="24dp"
+        android:textColor="#bb2c2c"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Groucho Marx"
+        android:id="@+id/textoautor"
+        android:layout_below="@+id/textocita"
+        android:layout_alignRight="@+id/textocita"
+        android:layout_alignEnd="@+id/textocita"
+        android:textSize="18dp"
+        android:textColor="#b45c5c" />
+</RelativeLayout>
